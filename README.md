@@ -473,3 +473,38 @@ Answer
 ```
 
 This is the **core RAG knowledge** you should be comfortable explaining in an AI Engineer interview.
+
+
+#Gen AI :
+one input --> one output . interaction end here 
+
+prompt --->LLM ---> Response 
+a simple chain 
+
+no tools 
+no memory between calls 
+no decision 
+no loops 
+
+#Ai agent  --> LLM with tools 
+LLM + Tools + State, running in a loop until the goal is done 
+
+Goal --> LLM -->tools--->web search / API / Database ---> LLM ---> result 
+
+
+#Agentic AI  --> combination of multiple AI Agents 
+start --> Plan Trip --> Approve(yes or no ) --> find flight --> approve (yes or no )  --> book hotel --> End 
+
+Loops and retries   / Shared data / Long waits 
+
+Langchain help you call a LLM 
+Langgraph help you orchestrate and intelligent system 
+
+
+state : THe shared backpack of data that travels through the whole flow 
+Node : A worker that does excatly one job . in code just a python function 
+Edge : connection between those node 
+Graph : combine of state node and edge is Graph 
+
+
+
